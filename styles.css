@@ -1,0 +1,227 @@
+/* ---Глобальные установки--- */
+body {
+	margin: 	0; padding: 0;
+	font: 		1em  Verdana, Tahoma, Arial, sans-serif;
+	color: 		#333;
+	background: url(pics/bg-grass.jpg);
+}
+h1 {
+	font-size: 	110%;
+	margin: 	5px 10px 5px 10px;
+	color: 		#158014;
+	background-color: inherit;
+}
+a {
+	color: 		#F9866E;
+	background-color: inherit;
+	text-decoration: none;
+}
+a:hover {
+	color: 		#CD5C5C;
+	background-color: inherit;
+}
+th {	font: bold 14px Tahoma, Verdana
+}
+/* ---HEADER--- */
+#header {
+	height: 	110px;
+	width:		1024px;
+	margin: 	0; padding: 0;
+	background: url(pics/header.jpg);
+	background-size: cover;
+	margin-left: auto;    /* центрование header-a  */
+	margin-right: auto;   /* по горизонтали */
+}
+#header img#logo {
+	margin:  5px 25px;
+	padding: 0;
+	border:  none;
+	width:	 81px;
+	height:	 100px;
+}
+/* ---Footer--- */
+.footer {
+	text-align: center;
+	font: 13px Times New Roman, Arial, Verdana;
+	color: #665665;
+	background: url(pics/bottom_bg.png) repeat-x;
+	height: 40px;
+}
+/* ---Верхнее меню--- */
+.top_menu {
+	clear: both;
+	background: #EE8158;
+	height: 26px;
+	margin: 0;
+	font: bolder 1.1em Tahoma, Verdana, Arial, Sans-Serif;
+}
+.top_menu ul{
+	margin: 0; padding: 0 0 0 190px;
+}
+.top_menu ul li {
+	float: left;
+	list-style: none;
+	border-right: 5px solid #FFA500;
+}
+.top_menu ul li a {
+	display: block;
+	text-decoration: none;
+	padding: 2 15;
+	color: #F8F7F5;
+}
+.top_menu ul li a:hover {
+  	color: #333;
+	background: url(pics/menu-hover-bg.gif) repeat-x;
+}
+.top_menu ul li.current a {
+	color: #333;
+	background: #F8F7F5;
+}
+/* ---Левое меню--- */
+.top_block {
+	background: #FFB080;
+	border: #E1E2E4 1px ridge;
+	text-align: center;
+	width: 190px;
+}
+.body_block {
+	background: #E7EDDF;
+	border: #E1E2E4 1px ridge;
+}
+.body_block ul {
+	margin: 10px 5px 10px 5px;
+	padding: 0;
+}
+.body_block ul li {
+	list-style: none;
+	background: #F8F7F5;
+	border: 1px solid #75A54B;
+	margin: 0; padding: 3px 5px;
+}
+.body_block ul li:hover {
+	color: #333;
+  	background: url(pics/menu-hover-bg.gif) repeat-x;
+}
+.body_block ul li a {
+	color: #F9864D;
+	text-decoration: none;
+	font: bolder 14px Verdana, Sans-serif;
+}
+
+.body_block ul li.current a {
+	color: #333;
+	background: url(pics/menu-hover-bg.gif) repeat-x;
+}
+/* ---Логин и пароль--- */
+.log_pass {	margin: 7 5 -20 0;
+}
+.login_txt {
+	margin: 5px 2px 5px 5px; padding: 0px;
+	border: 1px solid #CCC;
+	width: 117px;
+	float: right;
+	background: #F5F5F5;
+}
+.button {
+	font: bolder 12px Verdana, Sans-serif;
+	border: 1px solid #75A54B;
+    margin: 5 10 10 0;
+	padding: 5 6 5 6;
+	background: #F5F5F5;
+	color: #75A54B;
+	float: left;
+}
+.button:hover {	color: #333;
+  	background: #F2CCB5;
+}
+.logout a {	font: bolder 12px Verdana, Sans-serif;
+	border:1px solid #75A54B;
+	padding: 4px 6px;
+	color: #75A54B;
+	background: #F5F5F5;
+}
+form p {
+	display: inline-block;
+	float:   left;
+	font:    bolder 11px Verdana, Sans-serif;
+	padding: 0 0 0 2px;
+}
+form a {
+	text-decoration: none;
+	font: 11px;
+	color: #FA864D;
+}
+/* --- Рабочая часть --- */
+table.telo {
+	width: 	1024px;
+	border: none;
+	background: #F8F7F5;
+	margin-left: auto;    /* центрование таблицы  */
+	margin-right: auto;   /* по горизонтали */
+}
+.username {	color: #CC6600;
+	font:  bolder 18px Comic Sans MS,Verdana;
+}
+.rabchast {	padding: 2px 15px;
+	height: 500px;
+}
+.rabchast td {	font: normal 14px Courier New, Verdana;
+}
+.gor_line {	border-bottom: 1px solid #75A54B;
+}
+.gor_line_top {
+	border-top: 1px solid #75A54B;
+}
+.ver_line {	border-right: 1px solid #75A54B;
+}
+.zakladki {    padding: 0;
+}
+.zakladki li {	float: left;
+	list-style: none;
+	border: 2px solid #75A54B;
+	padding: 2px 5px;
+    margin: -1px;
+}
+.zakladki li a {
+	display: block;
+	text-decoration: none;
+	padding: 3px 6px;
+	margin: -2px -5px;
+	font: bold 14px Courier New, Arial;
+	color: #F9864D;
+}
+.zakladki li a:hover {
+  	color: #F1D29C;
+	background: #578E21;
+}
+.zakladki li.current a {	color: #F1D29C;
+	background: #578E21;
+}
+select {	border: 1px #75A54B solid;
+	font: 12px Verdana, Sans-serif;
+	height: 23px;
+}
+input {
+	border: 1px #75A54B solid;
+	font: 12px Verdana, Sans-serif;
+	height: 23px;
+}
+.b {font-weight: bold;}
+.i {font-style: italic;}
+.u {text-decoration: underline;}
+/* фон затемнённый в отдельной строке таблицы */
+.shadow {	background-color: #E7EDDF;
+}
+table.rez_tour {	text-align: center;
+	border-collapse: collapse;
+	float: left;
+}
+table.rez_tour th {
+	color: #F18359;
+}
+table.rez_tour td.head {	border: 1px #75A54B solid;
+	font: bold 14px Verdana, Arial;
+}
+.theme {  background:#FFB080;
+  font: bold 22px Courier New, Verdana;
+}
